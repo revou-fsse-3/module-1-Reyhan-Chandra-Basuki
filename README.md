@@ -1,6 +1,6 @@
 # Reyhan Chandra Basuki Profile
 
-##This My Photo
+## This My Photo
 ![Myphotolocal](crop.jpg)
 
 
@@ -12,12 +12,12 @@
 #### This My Social Media 
 |Name        |URL                    |
 |------------|-----------------------|
-|Instagram   |https://instagram.com/reyhanchandrabasuki?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr|
-|Facebook    |https://www.facebook.com/profile.php?id=100095401392872&mibextid=9R9pXO|
-|Twitter     |https://x.com/ReyhanChandra6?t=xc0LJe77zuqExELVcHmX9Q&s=09
-|Linkedin    |https://www.linkedin.com/in/reyhan-chandra-basuki-37456b1b7/|
+|Instagram   |[Reyhan Chandra Basuki](https://instagram.com/reyhanchandrabasuki?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr)|
+|Facebook    |[Reyhan Chandra](https://www.facebook.com/profile.php?id=100095401392872&mibextid=9R9pXO)|
+|Twitter     |[reyhanchandra6](https://x.com/ReyhanChandra6?t=xc0LJe77zuqExELVcHmX9Q&s=09)|
+|Linkedin    |[Reyhan Chandra Basuki](https://www.linkedin.com/in/reyhan-chandra-basuki-37456b1b7/)|
 
-#####My Education
+##### My Education
 
 |School Name                  | Graduated|
 |-----------------------------|----------|
@@ -26,4 +26,4 @@
 |SMA Hangtuah 1 Jakarta       | 2018     |
 |Bina Nusantara University    | 2022     |
 
-I hope that with this short biodata, friends who read can get to know me better. Thank you for your attention .
+I hope that with this short biodata, friends who read can get to know me better. Thank you for your attention.
