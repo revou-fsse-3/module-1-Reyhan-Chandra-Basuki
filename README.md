@@ -1,6 +1,6 @@
 # Reyhan Chandra Basuki Profile
 
-##This My Photo
+## This My Photo
 ![Myphotolocal](crop.jpg)
 
 
@@ -17,7 +17,7 @@
 |Twitter     |https://x.com/ReyhanChandra6?t=xc0LJe77zuqExELVcHmX9Q&s=09
 |Linkedin    |https://www.linkedin.com/in/reyhan-chandra-basuki-37456b1b7/|
 
-#####My Education
+##### My Education
 
 |School Name                  | Graduated|
 |-----------------------------|----------|

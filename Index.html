@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Hokkaido</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> All About Hokkaido</h1>
+    </header>
+    <nav class="menu-wrapper">
+        <div class="menu">Home</div>
+        <div class="menu">About</div>
+        <div class="menu">Contact</div>
+    </nav>
+    <main id="main-content">
+        <div class="container">
+            <div class="wrapper">
+                <p>Hokkaido is a prefecture in Japan, which has natural beauty that amazes tourists from all over the world. Apart from its nature, Hokkaido also has various festivals, but Hokkaido is more famous for its beauty when winter arrives. here you all can see the beauty of Hokkaido</p>
+            </div>
+        </div>
+
+        <section id="Hokkaido-Photos">
+            <h2>Hokkaido Photo</h2>
+            <div class="grid-container">
+                <div id="item-1">
+                <img src="Assets/Hokkaido 1.jpeg" alt="A Beauty view of Hokkaido."/>
+                </div>
+                <div id="item-2">
+                <img src="Assets/Hokkaido 2.jpg" alt=" Snow of Hokkaido"/>
+                </div>
+                <div id="item-3">
+                    <img src="Assets/Hokkaido 3.jpeg" alt="A Building In Winter Hokkaido"/>  
+                </div>
+                <div id ="item 4">
+                    <img src="Assets/hokkaido 4.jpg" alt="A River at Hokkaido with People do festivals"/>
+                </div>
+            </div>
+        </section>
+        <section id="Hokkaido-Video">
+            <h2>Beautiful Video of Hokkaido</h2>
+            <div class="flex-container">
+                <iframe
+                width="100%"
+                height="315"
+                src="https://www.youtube.com/watch?v=OSH6bsBYQpU"
+                title="Youtube Video Player"
+                Frameborder="1px"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picgture"
+                display="block"
+                allowfullscreen>
+            </iframe>
+            </div>
+        </section>
+        <section id="form section">
+            <h2>Join Hokkaido Fansclub</h2>
+            <form action="#">
+                <fieldset>
+                    <legend>Personal Data:</legend>
+                    <div>
+                        <label for="FullName">FullName:</label>
+                        <input id="FullName" type="text" required/>
+                    </div>
+
+                    <div>
+                        <label for="Email">Email:</label>
+                        <input id="Email" type="text" required/>
+                    </div>
+
+                    <div>
+                        <p>Are You Living in Indonesia?</p>
+                        <input type="radio" id="yes" name="isindonesia" value="Male"/>
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="no" name="isindonesia" value="Female"/>
+                        <label for="no">NO</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Additional Information:</legend>
+                    <div>
+                        <p>Tell us Why You Love Hokkaido:</p>
+                        <textrea rows="5"></textrea>
+                        </div>
+                        <div>
+                            <p>Upload Your Best Photo of Hokkaido Here:</p>
+                            <input
+                            type="file"
+                            id="photo"
+                            name="MyBestHokkaidoPhoto"
+                            required
+                            accept="image/png, image/jpeg"/>
+                        </div>
+                </fieldset>
+                <button type="Submit">Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
