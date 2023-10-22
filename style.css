@@ -1,11 +1,13 @@
 *{
     padding: 0;
-    margin: 5px;
+    margin: 10px;
 }
 
 h1 {
     text-align: center;
-    margin: 20px;
+    margin: 10px;
+    background-color: #16c0cc;
+    border-style: solid;
 }
 
 .menu-wrapper {
@@ -15,7 +17,7 @@ h1 {
 
 h2 {
     text-align: center;
-    margin:30px;
+    margin:15px;
 }
 
 #Hokkaido-photos h2 {
@@ -33,8 +35,8 @@ h2 {
 }
 
 #Hokkaido-Photos .grid-container img {
-    width: 140% ;
-    Height: 110% ;
+    width: 130% ;
+    Height: 90% ;
 }
 
 #Hokkaido-Video .flex-container {
@@ -44,10 +46,9 @@ h2 {
     margin:10px;
 
 }
-
 #form-section {
     background-color: #16c0cc;
-    color:azure;
+    color: wheat;
     padding: 20px;
     margin: 20px;
 }
@@ -56,6 +57,7 @@ h2 {
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
+    background-color: black;
 }
 
 button [type="submit"] {
