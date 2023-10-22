@@ -8,4 +8,4 @@
 - Style your form to align with your website's design.
 Sorry Kak Untuk JS Masih agak bingung untuk pengaplikasiannya 
 
-Layout: Mohon maaf kak Netiflynya failed terus -_-
+Layout: https://allabouthokkaido.netlify.app/
