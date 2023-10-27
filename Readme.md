@@ -9,3 +9,6 @@
 Sorry Kak Untuk JS Masih agak bingung untuk pengaplikasiannya 
 
 Layout: https://allabouthokkaido.netlify.app/
+
+### Week 2 Module 1 Checkpoint 2
+Layout Checkpoint 2 Module 1: https://allabouthokaidochckpoint2.netlify.app/

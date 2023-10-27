@@ -5,25 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All About Hokkaido</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Responsive.css">
 </head>
 <body>
-    <header>
-        <h1> All About Hokkaido</h1>
-    </header>
-    <nav class="menu-wrapper">
-        <div class="menu">Home</div>
-        <div class="menu">About</div>
-        <div class="menu">Contact</div>
+    <nav>
+        <span class="mobile">
+            <img src="Assets/Hamburger_icon.svg.png" alt="Hamburger_icon"/>
+        </span>
+        <span class="relative-container">
+            <img src="Assets/Hokkaido Logo.jpeg" alt="Hokkaido Logo"/>
+        </span>
+
+        <ul class="dekstop">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
     </nav>
+    <header>
+        <h1>All About Hokkaido</h1>
+        <p>This is About Beautiful Hokkaido</p>
+    </header>
     <main id="main-content">
         <div class="container">
             <div class="wrapper">
-                <p>Hokkaido is a prefecture in Japan, which has natural beauty that amazes tourists from all over the world. Apart from its nature, Hokkaido also has various festivals, but Hokkaido is more famous for its beauty when winter arrives. here you all can see the beauty of Hokkaido</p>
+                <p>Hokkaido is a prefecture in Japan, which has natural beauty that amazes tourists from all over the world. Apart from its nature, Hokkaido also has various festivals,Hokkaido is renowned for its snowy landscapes, attracting visitors from around the globe for winter sports and the breathtaking scenery created by the cold, dry air that produces fine, powdery snow. While snow can be found across Hokkaido, the Sapporo Snow Festival is especially renowned. but Hokkaido is more famous for its beauty when winter arrives. here you all can see the beauty of Hokkaido.</p>
             </div>
         </div>
 
         <section id="Hokkaido-Photos">
-            <h2>Hokkaido Photo</h2>
+            <h2 id="text">Hokkaido Photo</h2>
             <div class="grid-container">
                 <div id="item-1">
                 <img src="Assets/Hokkaido 1.jpeg" alt="A Beauty view of Hokkaido."/>
@@ -40,7 +51,7 @@
             </div>
         </section>
         <section id="Hokkaido-Video">
-            <h2>Beautiful Video of Hokkaido</h2>
+            <h2 id="text2">Beautiful Video of Hokkaido</h2>
             <div class="flex-container">
                 <iframe
                 width="50%"
@@ -54,7 +65,7 @@
             </iframe>
             </div>
         </section>
-        <section id="form section">
+        <section id="form-section">
             <h2>Join Hokkaido Fansclub</h2>
             <form action="#">
                 <fieldset>
@@ -72,7 +83,7 @@
                     <div>
                         <p>Are You Living in Indonesia?</p>
                         <input type="radio" id="yes" name="isindonesia" value="Male"/>
-                        <label for="yes">Yes</label>
+                        <label for="yes">YES</label>
                         <input type="radio" id="no" name="isindonesia" value="Female"/>
                         <label for="no">NO</label>
                     </div>
@@ -80,8 +91,33 @@
                 <fieldset>
                     <legend>Additional Information:</legend>
                     <div>
+                        <p> What do you think about Hokkaido</p>
+                        <input
+                        id="Beautiful"
+                        type="checkbox"
+                        name="Place"
+                        value="Beautiful"
+                        />
+                        <label for="Beautiful">Beautiful</label>
+                        <input
+                        id="Cool"
+                        type="checkbox"
+                        name="scenery"
+                        value="Cool"
+                        />
+                        <label for="Cool">Cool</label>
+                        <input
+                        id="Relaxing"
+                        type="checkbox"
+                        name="Feel"
+                        Value="Relaxing"
+                        />
+                        <label for="Relaxing">Relaxing</label>
+                    </div>
+                    <div>
                         <p>Tell us Why You Love Hokkaido:</p>
-                        <textrea rows="5"></textrea>
+                        <textarea id="Hokkaido-Review" name="Hokkaido-Review" rows="5" cols="50">
+                        </textarea>
                         </div>
                         <div>
                             <p>Upload Your Best Photo of Hokkaido Here:</p>

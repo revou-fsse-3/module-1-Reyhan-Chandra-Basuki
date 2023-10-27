@@ -1,73 +1,102 @@
-*{
-    padding: 0;
-    margin: 10px;
-}
-
-h1 {
-    text-align: center;
-    margin: 10px;
-    background-color: #16c0cc;
-    border-style: solid;
-}
-
-.menu-wrapper {
-    display: flex;
-    justify-content:space-evenly;
-}
-
-h2 {
-    text-align: center;
-    margin:15px;
-}
-
-#Hokkaido-photos h2 {
-    text-align: center;
-    margin: 30px;
-}
-
-#Hokkaido-Photos .grid-container {
-    display: flex;
-    gap: 55px;
-}
-
-#Hokkaido-Photos .grid-container > div {
-    width: 25%
-}
-
-#Hokkaido-Photos .grid-container img {
-    width: 130% ;
-    Height: 90% ;
-}
-
-#Hokkaido-Video .flex-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin:10px;
-
-}
-#form-section {
-    background-color: #16c0cc;
-    color: wheat;
-    padding: 20px;
-    margin: 20px;
-}
-
-#form-section form{
-    max-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: black;
-}
-
-button [type="submit"] {
-    color: aliceblue;
-    background-color: black;
-    border: 1px solid white;
-    border-radius: 5px;
-    width: 100%;
-    padding: 10px 20px;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-}
+Body {font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    }
+    
+    nav {
+        position: fixed;
+    }
+    
+    nav > span >img {
+        width: 15%;
+        background-color: white;
+        image-resolution: 102px
+        ;
+    }
+    
+    nav > ul {
+        margin-left: auto;
+        margin-right: 20px;
+    }
+    
+    nav > ul >li {
+        display:inline-flex;
+    }
+    
+    .relative-container {
+        position: relative;
+    
+    }
+    header {
+        margin:0px;
+        padding:3px;
+        text-align: center;
+        background-color: #b8e3e0;
+        border-bottom: 1px solid black;
+    }
+    
+    .main-content {
+        text-align: center;
+        margin: 5px;
+    }
+    #text{
+        text-align: center;
+        margin: 30px;
+    }
+    
+    #Hokkaido-Photos .grid-container {
+        display: flex;
+        gap: 55px;
+    }
+    
+    #Hokkaido-Photos .grid-container > div {
+        width: 25%
+    }
+    
+    #Hokkaido-Photos .grid-container img {
+        width: 110% ;
+        Height: 90% ;
+        margin-left: 5px;
+    
+    }
+    
+    #Hokkaido-Video .flex-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin:10px;
+    }
+    
+    #text2 {
+        text-align: center;
+        margin:15px ;
+    
+    }
+    
+    #form-section {
+        background-color: #b8e3e0;
+        text-align: center;
+        margin:10px ;
+    
+    }
+    
+    /* for tablet and dekstop*/
+    @media screen and(min-width: 768px) {
+        #Hokkaido-Photos .grid-container {
+            display: flex;
+            gap: 20px;
+        }
+        
+        #Hokkaido-Photos .grid-container > div {
+            width: 25%
+        }
+        
+        #Hokkaido-Photos .grid-container img {
+            width: 110% ;
+            Height: 90% ;
+            margin-left: 5px;
+            object-fit: cover;
+        }
+    
+    } 
+        
+    
