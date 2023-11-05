@@ -14,7 +14,21 @@
         </span>
         <span class="relative-container">
             <img src="Assets/Hokkaido Logo.jpeg" alt="Hokkaido Logo"/>
+        <b>Beauty Hokkaido</b>    
         </span>
+
+        <span id="dark-mode-switch">
+            <p>Dark Mode</p>
+
+            <label class="switch">
+                <input
+                id="checkbox-dark-mode"
+                onchange="toogleDarkMode()"
+                type="checkbox"/>
+                <span class="slider round"></span>
+            </label>
+        </span>
+
 
         <ul class="dekstop">
             <li><a href="#">Home</a></li>
@@ -23,8 +37,8 @@
         </ul>
     </nav>
     <header>
-        <h1>All About Hokkaido</h1>
-        <p>This is About Beautiful Hokkaido</p>
+        <h1 style="color: aliceblue;">About Hokkaido</h1>
+        <p style="color:white;">This is About Beautiful Hokkaido</p>
     </header>
     <main id="main-content">
         <div class="container">
@@ -34,24 +48,24 @@
         </div>
 
         <section id="Hokkaido-Photos">
-            <h2 id="text">Hokkaido Photo</h2>
+            <h2 id="text" style="color: rgb(236, 203, 140);">Hokkaido Photo</h2></h2>
             <div class="grid-container">
-                <div id="item-1">
+                <div class="hokkaido-item" id="item1">
                 <img src="Assets/Hokkaido 1.jpeg" alt="A Beauty view of Hokkaido."/>
                 </div>
-                <div id="item-2">
+                <div class="hokkaido-item" id="item-2">
                 <img src="Assets/Hokkaido 2.jpg" alt=" Snow of Hokkaido"/>
                 </div>
-                <div id="item-3">
+                <div class="hokkaido-item" id="item-3">
                     <img src="Assets/Hokkaido 3.jpeg" alt="A Building In Winter Hokkaido"/>  
                 </div>
-                <div id ="item 4">
+                <div class="hokkaido-item" id ="item 4">
                     <img src="Assets/hokkaido 4.jpg" alt="A River at Hokkaido with People do festivals"/>
                 </div>
             </div>
         </section>
         <section id="Hokkaido-Video">
-            <h2 id="text2">Beautiful Video of Hokkaido</h2>
+            <h2 id="text2" style="color: rgb(16, 95, 107);">Beautiful Video of Hokkaido</h2>
             <div class="flex-container">
                 <iframe
                 width="50%"
@@ -78,6 +92,15 @@
                     <div>
                         <label for="Email">Email:</label>
                         <input id="Email" type="text" required/>
+                    </div>
+                    <div>
+                        <label for="dob">Date of birth
+                            <input
+                            type="date"
+                            name="trip-start"
+                            value="2000-10-20"
+                            />
+                        </label>
                     </div>
 
                     <div>
